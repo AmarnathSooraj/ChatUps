@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-      <main className=" bg-[#FAF8F1]  px-4 md:px-10 w-full overflow-hidden fixed">
+      <main className=" bg-[#FAF8F1]  px-4 md:px-10 w-full overflow-hidden relative">
         <div className="md:hidden absolute top-8 bg-[#142572] text-white font-medium text-xl px-3">
           Sign Up
         </div>
