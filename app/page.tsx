@@ -10,7 +10,7 @@ export default function Home() {
         <div className=" text-black/85 flex flex-col md:justify-around place-content-center md:place-items-center min-h-screen md:flex-row w-full"> 
             {/* Left side */}
             <div className="md:max-w-[75%]">
-              <div className="space-y-3 md:space-y-5">
+              <div className="space-y-5 md:space-y-6">
                 <p className="text-7xl md:text-9xl font-medium">Chat<span className="bg-[#142572] text-white">Ups</span>.</p>
                 <p className="font-josefin text-lg md:text-xl">
                   "A fast, secure chat app that keeps you connected to the people
