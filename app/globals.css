@@ -4,3 +4,9 @@
 body {
   font-family:'Inter Tight' important;
 }
+
+option{
+  background:rgba(0, 0, 0,0.85);
+  color:rgb(255, 255, 255);
+  border:none;
+}
