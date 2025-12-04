@@ -1,12 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
-@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Pixelify+Sans:wght@400..700&family=VT323&display=swap');
+@import "tailwindcss"; 
 
 body {
-  font-family:'Inter Tight' important;
+  font-family: 'Inter Tight' important;
 }
 
-option{
-  background:rgba(0, 0, 0,0.85);
-  color:rgb(255, 255, 255);
-  border:none;
+.pixelify{
+  font-family: "Pixelify Sans", sans-serif !important;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inter{
+  font-family: "Inter Tight";
+  font-weight: 400;
+  font-style: normal;
+}
+
+option {
+  background: rgba(0, 0, 0, 0.85);
+  color: rgb(255, 255, 255);
+  border: none;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #4d2e01;
+}
+
+.vt323{
+  font-family: "VT323", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.large-text{
+  font-size:80px;
+  line-height: 80px;
 }
